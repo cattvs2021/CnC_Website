@@ -34,7 +34,7 @@ span#logo {
   font-size: 2em;
 }
 main {
-  height: 200vh;
+  height: 450vh;
   background-color: rgb(223, 221, 216);
 }
 
@@ -42,7 +42,11 @@ main.homepage-background {
   width: 100%;
   height: 40vh;
 }
-main.Candles-background {
+main.Candles-Background {
+  width: 100%;
+  height: 40vh;
+}
+main.Soap-Background {
   width: 100%;
   height: 40vh;
 }
@@ -66,7 +70,7 @@ ul li a {
 }
 
 ul li a:hover {
-  color: rgb(205, 94, 119);
+  color: rgb(156, 100, 51);
 }
 
 nav {
@@ -81,6 +85,48 @@ nav {
   max-width: 50%;
   height: auto;
   float: right;
+}
+#Rose-Geranium-Facial-Serum-Mist {
+  padding: 6em 2em;
+  max-width: 50%;
+  height: auto;
+  float: left;
+}
+#Plumeria-Flower {
+  padding: 6em 2em;
+  max-width: 50%;
+  height: auto;
+  float: right;
+}
+#Eucalyptus-Citrus {
+  width: 100%;
+  height: auto;
+}
+#Sage-Cedarwood-Soap {
+  width: 100%;
+  height: auto;
+}
+#Sandelwood-Rose-Soap {
+  width: 100%;
+  height: auto;
+}
+#Best-Sellers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100%;
+  grid-gap: 1rem;
+  font-size: xx-large;
+}
+#Sage-Green-Section {
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(93,101,81);
+}
+#Essence-Jars {
+  padding: 6em 2em;
+  max-width: 50%;
+  height: auto;
+  float: left;
 }
 h2 {
   padding: 6em 2em;
